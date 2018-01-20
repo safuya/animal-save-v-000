@@ -21,6 +21,6 @@ html {
 /* Write your solution here */
 @media screen and (max-width: 1140px) {
   #dolphin {
-    top: 100px;
+    top: 80px;
   }
 }
