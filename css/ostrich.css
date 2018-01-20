@@ -10,5 +10,7 @@ html {
 
 /* Write your solution here */
 @media screen and (max-width: 1400px) {
-  top: 0;
+  #ostrich {
+    top: 0;
+  }
 }
