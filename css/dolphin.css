@@ -16,7 +16,18 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  transition: top 1s;
 }
 
 /* Write your solution here */
+@media screen and (max-width: 1140px) {
+  #dolphin {
+    top: 50px;
+  }
+}
 
+@media screen and (max-width: 560px) {
+  #dolphin {
+    top: 400px;
+  }
+}

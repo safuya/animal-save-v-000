@@ -6,7 +6,18 @@ html {
   position: absolute;
   top: 550px;
   right: 120px;
+  transition: top 1.5s;
 }
 
 /* Write your solution here */
+@media screen and (max-width: 1250px) {
+  #monkey {
+    top: -20px;
+  }
+}
 
+@media screen and (max-width: 470px) {
+  #monkey {
+    top: 550px;
+  }
+}
