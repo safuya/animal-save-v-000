@@ -6,7 +6,12 @@ html {
   position: absolute;
   top: 550px;
   right: 120px;
+  transition: top 1.5s;
 }
 
 /* Write your solution here */
-
+@@media only screen and (max-width: 1250) {
+  #monkey {
+    top: -20px;
+  }
+}
