@@ -12,6 +12,7 @@ html {
 @media screen and (max-width: 1400px) {
   #ostrich {
     top: -60px;
+    transition: top 0.5s;
   }
 }
 
